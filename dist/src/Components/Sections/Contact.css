@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Section */
+.header_contact {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    max-height: 900px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.contact_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+.contact_img_p1, .contact_img_p2 {
+    position: absolute;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    text-align: center; /* Ensure multi-line text is centered */
+    color: var(--white);
+    width: 100%; /* Ensure it spans the container */
+    height: 20%; /* Ensure it spans the container */
+}
+
+.contact_img_p1 {
+    top: 30%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+.contact_img_p2 {
+    top: 38%;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+@media (max-width: 950px) {
+    .contact_img_p1 {
+        top: 20% !important;
+    }
+    .contact_img_p2 {
+        top: 25% !important; 
+      }
+
+}
+
+@media (max-width: 790px) {
+    .contact_img_p2 {
+        top: 30% !important; 
+      }
+
+}
+
+@media (max-width: 720px) {
+    .contact_img_p1 {
+        font-size: 2.225rem;
+        top: 15% !important;
+    }
+
+    .contact_img_p2 {
+      top: 20% !important;
+      font-size: 1.025rem; 
+    }
+}
+
+@media (max-width: 580px) {
+    .contact_img_p1 {
+        font-size: 2.225rem;
+        top: 10% !important;
+    }
+    .contact_img_p2 {
+      top: 18% !important;
+    }
+}
+  
+  .contact-page {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .contact-page h1 {
+    font-size: 2rem;
+    color: var(--navy);
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .contact-page p {
+    font-size: 1.1rem;
+    color: var(--dark-slate);
+    margin-bottom: 20px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 500px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--light-slate);
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    background-color: var(--white);
+    color: var(--red);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid var(--red);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .send-button:hover {
+    background-color: var(--red);
+    color: var(--white);
+  }
+  
+  .contact-info {
+    flex: 1;
+    min-width: 400px;
+    background-color: var(--white);
+    border: 1px solid var(--light-slate);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.5rem;
+    color: var(--dark-slate);
+    font-weight: bold;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .contact-info a {
+    color: var(--red);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-info a:hover {
+    color: var(--light-red);
+  }
+  
+  .social-media {
+    display: flex; /* Align items in a row */
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center vertically */
+    gap: 15px; /* Add space between icons */
+    margin-top: 10px;
+  }
+  
+  .fb, .in {
+    width: 20px; /* Fixed width for icons */
+    height: 20px; /* Fixed height for icons */
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .fb:hover, .in:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  p i {
+    color: var(--red);
+    margin-right: 5px;
+  }
+  a {
+    color: var(--navy);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--red);
+  }
+  

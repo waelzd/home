@@ -1,0 +1,28 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1; /* Ensures content grows and the footer is pushed to the bottom */
+  }
+  
+  .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    padding: 20px 0;
+    background-color: var(--navy);
+    z-index: 10;
+  }
+  
+  .footer-bottom {
+    font-size: 14px;
+    color: var(--white);
+  }
+  
+
+  

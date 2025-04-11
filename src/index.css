@@ -1,0 +1,64 @@
+/* Import Tailwind's default base styles */
+@tailwind base;
+
+/* Import Tailwind's component styles */
+@tailwind components;
+
+/* Import Tailwind's utility classes */
+@tailwind utilities;
+
+/* Optional: You can add your custom styles below */
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-mono);
+  background-color: var(--white) !important;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --font-home: "museo_sans_700_new", sans-serif;
+  --font-home1: "museo_sans_300_new", sans-serif;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --dark-navy: #020c1b;
+  --black: #000000;
+  --orange: #FFA500;
+  --light-orange: #f3c781;
+  --navy: #003049;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
+  --transparent-navy: #0a192fd9;
+  --navy-shadow: rgba(2, 12, 27, .7);
+  --dark-slate: #373737;
+  --slate: #3D3E3F;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #e1e7f9;
+  --white: #ffffff;
+  --green: #64ffda;
+  --red: #CC0028;
+  --light-red: #FF0000;
+  --green-tint: Orgba(100, 255, 218, .1);
+  --fz-xxs: 12px;
+  --fz-xs: 13px;
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+  --fz-xl: 20px;
+  --fz-xxl: 22px;
+  --fz-large: 50px;
+  --fz-heading: 32px;
+  --fz-em: 1.8em;
+}
