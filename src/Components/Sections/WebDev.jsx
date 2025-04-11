@@ -8,7 +8,7 @@ const WebDev = () => {
           <body>
             <header className="header">
                 <center>
-                    <img src="./images/webdev.png" alt="homepic" className="webdev_img"
+                    <img src={`${process.env.PUBLIC_URL}/images/webdev.png`} alt="homepic" className="webdev_img"
                     />
                     <p className="webdev_img_p1">WEB DESIGN & DEVELOPMENT</p>
                     <p className="webdev_img_p2">See your website in all shapes & sizes!</p>
@@ -38,7 +38,7 @@ const WebDev = () => {
             <div className="column_webdev">
             <div className="card_webdev" id="col_webdev">
             <center>
-              <Card.Img src="./images/webdev1.png" className="webdev1_img" />
+              <Card.Img src={`${process.env.PUBLIC_URL}/images/webdev1.png`} className="webdev1_img" />
               </center>
               <Card.Body>
                 <Card.Title className="title_webdev">Web Development</Card.Title>
@@ -66,7 +66,7 @@ const WebDev = () => {
               <div className="column_webdesign">
             <div className="card_webdesign" id="col_webdesign">
             <center>
-              <Card.Img src="./images/webdesign.png" className="webdesign1_img" />
+              <Card.Img src={`${process.env.PUBLIC_URL}/images/webdesign.png`} className="webdesign1_img" />
               </center>
               <Card.Body>
                 <Card.Title className="title_webdesign">Web Design</Card.Title>

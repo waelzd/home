@@ -8,7 +8,7 @@ const Services = () => {
       <header className="header">
         <center>
           <img
-            src="./images/service.png"
+            src={`${process.env.PUBLIC_URL}/images/service.png`}
             alt="homepic"
             className="services_img"
           />
@@ -18,7 +18,7 @@ const Services = () => {
       </header>
 
       <section className="section_webdev">
-        <img src="./images/webdevdesign.png" className="webdevdesign_img" alt="webdev"/>
+        <img src={`${process.env.PUBLIC_URL}/images/webdevdesign.png`} className="webdevdesign_img" alt="webdev"/>
         <NavLink to="/webdevelopment&design" className="navlink_webdev_img">WEB DESIGN & DEVELOPMENT</NavLink>
         <div className="container_webdev1">
         <p className="p1_webdev_img">Codesign offers customer-oriented <strong>web design and development services</strong> and more importantly, deliver them effectively.
@@ -33,7 +33,7 @@ const Services = () => {
       </section>
 
       <section className="section_mobile">
-        <img src="./images/mobile1.png" className="mobile_img" alt="mobile"/>
+        <img src={`${process.env.PUBLIC_URL}/images/mobile1.png`} className="mobile_img" alt="mobile"/>
         <NavLink to="/mobileapps" className="navlink_mobile_img">MOBILE APPLICATIONS</NavLink>
         <div className="container_mobile">
         <p className="p1_mobile_img">One of the fundamental promises we gave ourselves when Softimpact was born, is to always keep pace with the latest innovations and technologies to provide the 
@@ -46,7 +46,7 @@ const Services = () => {
       </section>
 
       <section className="section_graphicdesign">
-        <img src="./images/graphicdesign1.png" className="graphicdesign_img" alt="graphicdesign" />
+        <img src={`${process.env.PUBLIC_URL}/images/graphicdesign1.png`} className="graphicdesign_img" alt="graphicdesign" />
         <NavLink to="/graphicdesign" className="navlink_graphicdesign_img">GRAPHIC DESIGN</NavLink>
         <div className="container_graphicdesign">
           <p className="p1_graphicdesign_img">Codesign provides customer-oriented<strong> graphic design services</strong>, delivering unique creations that embody each client's brand identity. Our portfolio showcases innovative designs incorporating the latest trends and technologies.
@@ -58,7 +58,7 @@ const Services = () => {
       </section>
 
       <section className="section_laptoprepair">
-        <img src="./images/laptopsrepair1.png" className="laptopsrepair_img" alt="laptoprepair" />
+        <img src={`${process.env.PUBLIC_URL}/images/laptopsrepair1.png`} className="laptopsrepair_img" alt="laptoprepair" />
         <NavLink to="#" className="navlink_laptoprepair_img">LAPTOPS REPAIR</NavLink>
         <div className="container_laptoprepair">
           <p className="p1_laptoprepair_img">Codesign <strong>Laptop Repair Service </strong>offers swift and precise solutions for a range of issues, from hardware malfunctions to software glitches. Our dedicated team ensures timely and reliable repairs, prioritizing customer satisfaction.

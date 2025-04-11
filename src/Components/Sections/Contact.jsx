@@ -8,7 +8,7 @@ const Contact = () => {
     <body>
       <header className="header_contact">
         <center>
-          <img src="./images/contact.jpg" alt="homepic" className="contact_img" />
+          <img src={`${process.env.PUBLIC_URL}/images/contact.jpg`} alt="homepic" className="contact_img" />
             <p className="contact_img_p1">COME FOR A CHAT,COFFEE ON US</p>
             <p className="contact_img_p2">We can’t wait to meet you!</p>
         </center>
@@ -50,10 +50,10 @@ const Contact = () => {
           <p>Codesign is all over the web! Find us on all <br /> the below platforms and let’s get social!</p>
           <div className="social-media">
             <a href="https://www.facebook.com/codesign" target="_blank" rel="noreferrer">
-              <img src="./images/facebook.png" alt="Facebook" className="fb"/>
+              <img src={`${process.env.PUBLIC_URL}/images/facebook.png`} alt="Facebook" className="fb"/>
             </a>
             <a href="https://www.instagram.com/codesign" target="_blank" rel="noreferrer">
-              <img src="./images/instagram.jpg" alt="Instagram" className="in"/>
+              <img src={`${process.env.PUBLIC_URL}/images/instagram.jpg`} alt="Instagram" className="in"/>
             </a>
             </div>
         </div>

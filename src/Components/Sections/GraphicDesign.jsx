@@ -8,7 +8,7 @@ const GraphicDesign = () => {
             <header className="header">
                 <center>
                     <img
-                        src="./images/graphicdes.png"
+                        src={`${process.env.PUBLIC_URL}/images/graphicdes.png`}
                         alt="homepic"
                         className="graphicdesign1_img"
                     />
@@ -40,7 +40,7 @@ const GraphicDesign = () => {
                     <div className="column_mobiledev">
                         <div className="card_mobiledev" id="col_mobiledev">
                             <center>
-                                <Card.Img src="./images/graphicdesign2.png" className="mobiledev1_img" />
+                                <Card.Img src={`${process.env.PUBLIC_URL}/images/graphicdesign2.png`} className="mobiledev1_img" />
                             </center>
                             <Card.Body>
                                 <Card.Title className="title_mobiledev">Pc Graphic Design</Card.Title>
@@ -63,7 +63,7 @@ const GraphicDesign = () => {
                     <div className="column_mobiledesign">
                         <div className="card_mobiledesign" id="col_mobiledesign">
                             <center>
-                                <Card.Img src="./images/graphicmobile.png" className="mobiledesign1_img" />
+                                <Card.Img src={`${process.env.PUBLIC_URL}/images/graphicmobile.png`} className="mobiledesign1_img" />
                             </center>
                             <Card.Body>
                                 <Card.Title className="title_mobiledesign">Mobile Graphic Design</Card.Title>

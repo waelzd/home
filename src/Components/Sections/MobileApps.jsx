@@ -8,7 +8,7 @@ const MobileApps = () => {
             <header className="header">
                 <center>
                     <img
-                        src="./images/mobileapps1.png"
+                        src={`${process.env.PUBLIC_URL}/images/mobileapps1.png`}
                         alt="homepic"
                         className="mobileapp1_img"
                     />
@@ -40,7 +40,7 @@ const MobileApps = () => {
                     <div className="column_mobiledev">
                         <div className="card_mobiledev" id="col_mobiledev">
                             <center>
-                                <Card.Img src="./images/mobileapps2.png" className="mobiledev1_img" />
+                                <Card.Img src={`${process.env.PUBLIC_URL}/images/mobileapps2.png`} className="mobiledev1_img" />
                             </center>
                             <Card.Body>
                                 <Card.Title className="title_mobiledev">Mobile App Development</Card.Title>
@@ -68,7 +68,7 @@ const MobileApps = () => {
                     <div className="column_mobiledesign">
                         <div className="card_mobiledesign" id="col_mobiledesign">
                             <center>
-                                <Card.Img src="./images/mobiledesign.png" className="mobiledesign1_img" />
+                                <Card.Img src={`${process.env.PUBLIC_URL}/images/mobiledesign.png`} className="mobiledesign1_img" />
                             </center>
                             <Card.Body>
                                 <Card.Title className="title_mobiledesign">Mobile App Design</Card.Title>

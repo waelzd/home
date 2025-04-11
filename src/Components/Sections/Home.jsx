@@ -18,7 +18,7 @@ const Home = () => {
         <p className="p3">we strive to provide the perfect design, development and problem solution for your business needs!</p>
         <center>
           <img
-            src="/images/homepic.png"
+            src={`${process.env.PUBLIC_URL}/images/homepic.png`}
             alt="homepic"
             className="homepic_img"
           />
@@ -31,7 +31,7 @@ const Home = () => {
   <div className="grid-container">
     <div className="cards">
       <center>
-        <img src="/images/website.png" alt="Web Development" className="service_img1" />
+        <img src={`${process.env.PUBLIC_URL}/images/website.png`} alt="Web Development" className="service_img1" />
       </center>
       <div className="card-body-service">
         <h3 className="title">Web Development & Design</h3>
@@ -45,7 +45,7 @@ const Home = () => {
 
     <div className="cards">
       <center>
-        <img src="/images/mobile.png" alt="Mobile Applications" className="service_img2" />
+        <img src={`${process.env.PUBLIC_URL}/images/mobile.png`} alt="Mobile Applications" className="service_img2" />
       </center>
       <div className="card-body-service">
         <h3 className="title">Mobile Applications</h3>
@@ -59,7 +59,7 @@ const Home = () => {
 
     <div className="cards">
       <center>
-        <img src="/images/graphic.png" alt="Graphic Design" className="service_img3" />
+        <img src={`${process.env.PUBLIC_URL}/images/graphic.png`} alt="Graphic Design" className="service_img3" />
       </center>
       <div className="card-body-service">
         <h3 className="title">Graphic Design</h3>
@@ -73,7 +73,7 @@ const Home = () => {
 
     <div className="cards">
       <center>
-        <img src="/images/repair.png" alt="Laptops Repair" className="service_img4" />
+        <img src={`${process.env.PUBLIC_URL}/images/repair.png`} alt="Laptops Repair" className="service_img4" />
       </center>
       <div className="card-body-service">
         <h3 className="title">Laptops Repair</h3>

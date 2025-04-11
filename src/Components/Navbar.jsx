@@ -41,7 +41,7 @@ export const Navbar = () => {
   return (
     <nav ref={navRef}>
       <Link to="/home">
-        <img src="./images/codesign1.png" className="logo" alt="Devart" />
+        <img src={`${process.env.PUBLIC_URL}/images/codesign1.png`} className="logo" alt="Devart" />
       </Link>
       <div className="menu" onClick={toggleMenu}>
         <span></span>

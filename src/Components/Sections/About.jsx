@@ -7,7 +7,7 @@ const AboutUs = () => {
     <body>
       <header className="header_about">
         <center>
-          <img src="./images/about-us.jpg" alt="homepic" className="about_img" />
+          <img src={`${process.env.PUBLIC_URL}/images/about-us.jpg`} alt="homepic" className="about_img" />
             <p className="about_img_p1">YOUR TRUSTED PARTNER IN TECHNOLOGY SOLUTIONS</p>
             <p className="about_img_p2">Empowering Your Vision with Reliable and Innovative Technology Solutions</p>
         </center>
@@ -19,7 +19,7 @@ const AboutUs = () => {
         <div className="grid-container-about">
           <div className="cards-about">
             <center>
-              <img src="./images/team.png" alt="Team" className="about_img1" />
+              <img src={`${process.env.PUBLIC_URL}/images/team.png`} alt="Team" className="about_img1" />
             </center>
           </div>
       
@@ -79,7 +79,7 @@ const AboutUs = () => {
         <div className="grid-container-results">
           <div className="cards-results">
             <center>
-              <img src="./images/results-oriented.jpg" alt="Team" className="result-oriented_img" />
+              <img src={`${process.env.PUBLIC_URL}/images/results-oriented.jpg`} alt="Team" className="result-oriented_img" />
             </center>
             <div className="card-body-results">
         <h3 className="title-card-results">Results-Oriented</h3>
@@ -91,7 +91,7 @@ const AboutUs = () => {
 
           <div className="cards-results">
             <center>
-              <img src="./images/client-focused.jpg" alt="Team" className="client-focused_img" />
+              <img src={`${process.env.PUBLIC_URL}/images/client-focused.jpg`} alt="Team" className="client-focused_img" />
             </center>
             <div className="card-body-results">
         <h3 className="title-card-results">Client Focused</h3>
@@ -103,7 +103,7 @@ const AboutUs = () => {
 
           <div className="cards-results">
             <center>
-              <img src="./images/tailored-solution.png" alt="Team" className="tailored-solution_img" />
+              <img src={`${process.env.PUBLIC_URL}/images/tailored-solution.png`} alt="Team" className="tailored-solution_img" />
             </center>
             <div className="card-body-results">
         <h3 className="title-card-results">Innovation and Customization</h3>
@@ -115,7 +115,7 @@ const AboutUs = () => {
 
         <div className="cards-results">
             <center>
-              <img src="./images/expert-team.jpg" alt="Team" className="expert-team_img" />
+              <img src={`${process.env.PUBLIC_URL}/images/expert-team.jpg`} alt="Team" className="expert-team_img" />
             </center>
             <div className="card-body-results">
         <h3 className="title-card-results">Expert Team</h3>
