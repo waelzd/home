@@ -212,7 +212,10 @@
   
 
   @media screen and (max-width: 400px) {
-  
+    .card_mobiledev, .card_mobiledesign {
+      height: 200vh !important;
+    }
+
     .section_mobiledevdesign {
       padding: 30px 10px;
     }

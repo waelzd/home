@@ -38,7 +38,7 @@ const GraphicDesign = () => {
             <section className="section_mobiledevdesign">
                 <div className="row_mobiledev">
                     <div className="column_mobiledev">
-                        <div className="card_mobiledev" id="col_mobiledev">
+                        <div className="card_graphicdev" id="col_mobiledev">
                             <center>
                                 <Card.Img src={`${process.env.PUBLIC_URL}/images/graphicdesign2.png`} className="mobiledev1_img" />
                             </center>
@@ -61,7 +61,7 @@ const GraphicDesign = () => {
                     </div>
 
                     <div className="column_mobiledesign">
-                        <div className="card_mobiledesign" id="col_mobiledesign">
+                        <div className="card_graphicdesign" id="col_mobiledesign">
                             <center>
                                 <Card.Img src={`${process.env.PUBLIC_URL}/images/graphicmobile.png`} className="mobiledesign1_img" />
                             </center>

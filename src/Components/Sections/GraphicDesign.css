@@ -121,7 +121,7 @@
     min-width: 300px;
   }
   
-  .card_mobiledev, .card_mobiledesign {
+  .card_graphicdev, .card_graphicdesign {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -154,7 +154,7 @@
   }
 
   @media (max-width: 1450px) {
-    .card_mobiledev, .card_mobiledesign {
+    .card_graphicdev, .card_graphicdesign {
       height: 120vh !important;
     }
   }
@@ -164,17 +164,17 @@
       flex: 1 1 100%;
     }
 
-    .card_mobiledev, .card_mobiledesign {
+    .card_graphicdev, .card_graphicdesign {
       height: 90vh !important;
     }
   }
 
   @media (max-width: 800px) {
-    .card_mobiledev, .card_mobiledesign {
-      height: 180vh !important;
+    .card_graphicdev {
+      height: 160vh !important;
     }
-    .card_mobiledesign {
-      height: 180vh !important;
+    .card_graphicdesign {
+      height: 140vh !important;
     }
   }
   
