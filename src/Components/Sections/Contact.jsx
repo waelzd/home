@@ -5,7 +5,7 @@ import React from "react";
 const Contact = () => {
   return (
     
-    <body>
+    <div className="contact-wrapper">
       <header className="header_contact">
         <center>
           <img src={`${process.env.PUBLIC_URL}/images/contact.jpg`} alt="homepic" className="contact_img" />
@@ -59,7 +59,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-    </body>
+    </div>
   );
 };
 
