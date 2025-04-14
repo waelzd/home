@@ -4,7 +4,7 @@ import "./MobileApps.css";
 
 const MobileApps = () => {
     return (
-        <body>
+        <div className="contact-wrapper">
             <header className="header">
                 <center>
                     <img
@@ -90,7 +90,7 @@ const MobileApps = () => {
             </section>
 
           
-        </body>
+        </div>
     );
 }
 

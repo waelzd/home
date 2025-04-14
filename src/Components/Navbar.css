@@ -193,9 +193,9 @@ nav ul li.dropdown .dropdown-menu.open {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .dropdown-menu{
-        left: 0 !important;
+        left: -25% !important;
     }
 }
 

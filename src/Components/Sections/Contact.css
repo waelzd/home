@@ -12,8 +12,7 @@ body {
     flex-direction: column;
 }
 
-/* Header Section */
-.header_contact {
+/* Header Section */.header_contact {
     height: 90vh;
     width: 100%;
     position: relative;
@@ -21,6 +20,7 @@ body {
     overflow: hidden;
     flex: 1;
 }
+
 
 .contact_img {
     width: 100%;
@@ -267,4 +267,59 @@ body {
     margin: 20px auto;
     padding: 10px;
   }
+}
+
+@media (max-width: 1100px) {
+  .contact-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-page p {
+    font-size: 0.9rem;
+  }
+
+  .contact_img_p1 {
+    font-size: 2.225rem;
+    top: 10% !important;
+}
+.contact_img_p2 {
+  top: 20% !important;
+}
+
+.header_contact {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  max-height: 900px;
+  overflow: hidden;
+  flex: 1;
+}
+}
+
+
+@media (max-width: 400px) {
+  .contact-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-page p {
+    font-size: 0.9rem;
+  }
+
+  .contact_img_p1 {
+    font-size: 2.225rem;
+    top: 20% !important;
+}
+.contact_img_p2 {
+  top: 50% !important;
+}
+
+.header_contact {
+  height: 30vh;
+  width: 100%;
+  position: relative;
+  max-height: 900px;
+  overflow: hidden;
+  flex: 1;
+}
 }

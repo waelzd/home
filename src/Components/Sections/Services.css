@@ -256,3 +256,126 @@ body {
         padding: 0 10px;
     }
 }
+
+
+/* Responsive tweaks for all sections */
+@media screen and (max-width: 768px) {
+    .img_p1 {
+      font-size: 2rem;
+      top: 25%;
+    }
+  
+    .img_p2 {
+      font-size: 1rem;
+      top: 32%;
+      padding: 0 10px;
+    }
+  
+    .navlink_webdev_img,
+    .navlink_mobile_img,
+    .navlink_graphicdesign_img,
+    .navlink_laptoprepair_img {
+      font-size: 20px;
+      padding: 10px 0;
+    }
+  
+    .p1_webdev_img,
+    .p1_mobile_img,
+    .p1_mobile_img1,
+    .p1_graphicdesign_img,
+    .p1_graphicdesign_img1,
+    .p1_laptoprepair_img,
+    .p1_laptoprepair_img1 {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+  
+    .webdevdesign_img,
+    .mobile_img,
+    .graphicdesign_img,
+    .laptopsrepair_img {
+      width: 50px;
+      height: 50px;
+      margin-top: 10px;
+    }
+  
+    .section_webdev,
+    .section_mobile,
+    .section_graphicdesign,
+    .section_laptoprepair {
+      padding: 40px 10px;
+      height: auto;
+    }
+  
+    .container_webdev1,
+    .container_mobile,
+    .container_graphicdesign,
+    .container_laptoprepair {
+      width: 100%;
+      padding: 0 10px;
+    }
+  }
+
+  /* Responsive tweaks for all sections */
+@media screen and (max-width: 400px) {
+    .header {
+        height: 30vh !important; /* Adjusted to a more responsive value */
+
+      }
+
+    .img_p1 {
+      font-size: 1.8rem;
+      top: 28%;
+    }
+  
+    .img_p2 {
+      font-size: 1rem;
+      top: 45%;
+      padding: 0 10px;
+    }
+  
+    .navlink_webdev_img,
+    .navlink_mobile_img,
+    .navlink_graphicdesign_img,
+    .navlink_laptoprepair_img {
+      font-size: 20px;
+      padding: 10px 0;
+    }
+  
+    .p1_webdev_img,
+    .p1_mobile_img,
+    .p1_mobile_img1,
+    .p1_graphicdesign_img,
+    .p1_graphicdesign_img1,
+    .p1_laptoprepair_img,
+    .p1_laptoprepair_img1 {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+  
+    .webdevdesign_img,
+    .mobile_img,
+    .graphicdesign_img,
+    .laptopsrepair_img {
+      width: 50px;
+      height: 50px;
+      margin-top: 10px;
+    }
+  
+    .section_webdev,
+    .section_mobile,
+    .section_graphicdesign,
+    .section_laptoprepair {
+      padding: 40px 10px;
+      height: auto;
+    }
+  
+    .container_webdev1,
+    .container_mobile,
+    .container_graphicdesign,
+    .container_laptoprepair {
+      width: 100%;
+      padding: 0 10px;
+    }
+  }
+  

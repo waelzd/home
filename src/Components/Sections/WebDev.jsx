@@ -5,7 +5,7 @@ import "./WebDev.css";
 const WebDev = () => {
     return (
         
-          <body>
+      <div className="contact-wrapper">
             <header className="header">
                 <center>
                     <img src={`${process.env.PUBLIC_URL}/images/webdev.png`} alt="homepic" className="webdev_img"
@@ -87,7 +87,7 @@ const WebDev = () => {
               </div>
             </section>
 
-        </body>
+        </div>
     );
 }
 

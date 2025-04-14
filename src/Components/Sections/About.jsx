@@ -4,7 +4,7 @@ import './About.css'; // Assume a separate CSS file for styling
 
 const AboutUs = () => {
   return (
-    <body>
+    <div className="contact-wrapper">
       <header className="header_about">
         <center>
           <img src={`${process.env.PUBLIC_URL}/images/about-us.jpg`} alt="homepic" className="about_img" />
@@ -136,7 +136,7 @@ const AboutUs = () => {
         <NavLink to="/contact" className="get-in-touch">Get in Touch</NavLink>
       </footer>
 
-    </body>
+    </div>
   );
 };
 

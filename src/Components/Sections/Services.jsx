@@ -4,7 +4,7 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <body>
+    <div className="contact-wrapper">
       <header className="header">
         <center>
           <img
@@ -70,7 +70,7 @@ const Services = () => {
       </section>
 
      
-    </body>
+    </div>
   );
 }
 
