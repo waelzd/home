@@ -2,7 +2,7 @@
     box-sizing: border-box; 
 }
 
-.header {
+.header-home {
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -250,5 +250,8 @@
 }
 
 
-
-
+@media screen and (max-width: 400px) {
+  .header-home {
+    height: 90vh;
+}
+}

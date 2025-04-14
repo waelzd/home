@@ -11,8 +11,8 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <body>
-      <header className="header">
+    <div className="contact-wrapper">
+      <header className="header-home">
         <p className="p1">We are</p>
         <p className="p2">a Web Development, Design & Mobile Apps Technology Company</p>
         <p className="p3">we strive to provide the perfect design, development and problem solution for your business needs!</p>
@@ -155,7 +155,7 @@ const Home = () => {
 
 
       
-    </body>
+    </div>
 
   );
 }
