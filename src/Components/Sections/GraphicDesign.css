@@ -171,10 +171,10 @@
 
   @media (max-width: 800px) {
     .card_mobiledev, .card_mobiledesign {
-      height: 160vh !important;
+      height: 180vh !important;
     }
     .card_mobiledesign {
-      height: 140vh !important;
+      height: 180vh !important;
     }
   }
   
