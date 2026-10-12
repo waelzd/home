@@ -102,7 +102,7 @@ const Home = () => {
 
           <div className="home__hero-visual">
             <img
-              src={`${process.env.PUBLIC_URL}/images/homepic.png`}
+              src={`/images/homepic.png`}
               alt="Codesign team and product showcase"
             />
           </div>
@@ -118,7 +118,7 @@ const Home = () => {
             {services.map((service) => (
               <article key={service.to} className="home__service-card">
                 <div className="home__service-media">
-                  <img src={`${process.env.PUBLIC_URL}/images/${service.image}`} alt={service.alt} />
+                  <img src={`/images/${service.image}`} alt={service.alt} />
                 </div>
                 <div className="home__service-body">
                   <h3 className="home__service-title">{service.title}</h3>

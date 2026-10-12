@@ -15,7 +15,7 @@ const Contact = () => {
       {/* ---------- Hero ---------- */}
       <header className="contact__hero">
         <img
-          src={`${process.env.PUBLIC_URL}/images/contact.jpg`}
+          src={`/images/contact.jpg`}
           alt="Contact Codesign"
           className="contact__hero-img"
         />

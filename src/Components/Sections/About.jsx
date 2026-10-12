@@ -58,7 +58,7 @@ const AboutUs = () => {
       {/* ---------- Hero ---------- */}
       <header className="about__hero">
         <img
-          src={`${process.env.PUBLIC_URL}/images/about-us.jpg`}
+          src={`/images/about-us.jpg`}
           alt="About Codesign"
           className="about__hero-img"
         />
@@ -80,7 +80,7 @@ const AboutUs = () => {
           <div className="about__grid">
             <div className="about__image-wrap">
               <img
-                src={`${process.env.PUBLIC_URL}/images/team.png`}
+                src={`/images/team.png`}
                 alt="Our team"
                 className="about__image"
               />
@@ -137,7 +137,7 @@ const AboutUs = () => {
             {values.map((value) => (
               <div key={value.title} className="about__value-card">
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/${value.image}`}
+                  src={`/images/${value.image}`}
                   alt={value.title}
                   className="about__value-img"
                 />

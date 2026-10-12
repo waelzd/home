@@ -74,7 +74,7 @@ const GraphicDesign = () => {
       {/* ---------- Hero ---------- */}
       <header className="graphic__hero">
         <img
-          src={`${process.env.PUBLIC_URL}/images/graphicdes.png`}
+          src={`/images/graphicdes.png`}
           alt="Graphic Design at Codesign"
           className="graphic__hero-img"
         />
@@ -130,7 +130,7 @@ const GraphicDesign = () => {
               <article key={offering.id} className="graphic__card">
                 <div className="graphic__card-media">
                   <img
-                    src={`${process.env.PUBLIC_URL}/images/${offering.image}`}
+                    src={`/images/${offering.image}`}
                     alt={offering.alt}
                     className="graphic__card-img"
                   />

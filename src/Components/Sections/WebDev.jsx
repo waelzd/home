@@ -74,7 +74,7 @@ const WebDev = () => {
       {/* ---------- Hero ---------- */}
       <header className="webdev__hero">
         <img
-          src={`${process.env.PUBLIC_URL}/images/webdev.png`}
+          src={`/images/webdev.png`}
           alt="Web design and development at Codesign"
           className="webdev__hero-img"
         />
@@ -145,7 +145,7 @@ const WebDev = () => {
               <article key={offering.id} className="webdev__card">
                 <div className="webdev__card-media">
                   <img
-                    src={`${process.env.PUBLIC_URL}/images/${offering.image}`}
+                    src={`/images/${offering.image}`}
                     alt={offering.alt}
                     className="webdev__card-img"
                   />

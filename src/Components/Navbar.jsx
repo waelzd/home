@@ -51,7 +51,7 @@ export const Navbar = () => {
       <div className="navbar__inner">
         <Link to="/home" className="navbar__brand" onClick={closeMenu}>
           <img
-            src={`${process.env.PUBLIC_URL}/images/codesign1.png`}
+            src={`/images/codesign1.png`}
             className="navbar__logo"
             alt="Devart"
           />

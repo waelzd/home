@@ -74,7 +74,7 @@ const MobileApps = () => {
       {/* ---------- Hero ---------- */}
       <header className="mobile__hero">
         <img
-          src={`${process.env.PUBLIC_URL}/images/mobileapps1.png`}
+          src={`/images/mobileapps1.png`}
           alt="Mobile applications at Codesign"
           className="mobile__hero-img"
         />
@@ -132,7 +132,7 @@ const MobileApps = () => {
               <article key={offering.id} className="mobile__card">
                 <div className="mobile__card-media">
                   <img
-                    src={`${process.env.PUBLIC_URL}/images/${offering.image}`}
+                    src={`/images/${offering.image}`}
                     alt={offering.alt}
                     className="mobile__card-img"
                   />

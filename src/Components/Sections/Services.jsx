@@ -90,7 +90,7 @@ const Services = () => {
       {/* ---------- Hero ---------- */}
       <header className="services__hero">
         <img
-          src={`${process.env.PUBLIC_URL}/images/service.png`}
+          src={`/images/service.png`}
           alt="Services at Codesign"
           className="services__hero-img"
         />
@@ -117,7 +117,7 @@ const Services = () => {
             <div className="services__container">
               <div className="services__icon-wrap">
                 <img
-                  src={`${process.env.PUBLIC_URL}/images/${service.icon}`}
+                  src={`/images/${service.icon}`}
                   alt=""
                   className="services__icon"
                   aria-hidden="true"
