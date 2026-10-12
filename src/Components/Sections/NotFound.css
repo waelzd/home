@@ -1,0 +1,79 @@
+.notfound {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+  background-color: #f8fafc;
+  text-align: center;
+  font-family: var(--font-sans, "Inter", system-ui, sans-serif);
+}
+
+.notfound__inner {
+  max-width: 520px;
+}
+
+.notfound__code {
+  font-size: clamp(4rem, 12vw, 7rem);
+  font-weight: 800;
+  line-height: 1;
+  margin: 0 0 1rem;
+  color: var(--red, #e11d48);
+  letter-spacing: -0.03em;
+}
+
+.notfound__title {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 700;
+  color: var(--navy, #0f172a);
+  margin: 0 0 0.75rem;
+}
+
+.notfound__text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #475569;
+  margin: 0 0 2rem;
+}
+
+.notfound__actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.notfound__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease, transform 0.15s ease;
+}
+
+.notfound__btn--primary {
+  background-color: var(--red, #e11d48);
+  color: #ffffff;
+  box-shadow: 0 10px 22px rgba(225, 29, 72, 0.28);
+}
+
+.notfound__btn--primary:hover {
+  background-color: #be123c;
+  transform: translateY(-2px);
+}
+
+.notfound__btn--ghost {
+  background-color: transparent;
+  color: var(--navy, #0f172a);
+  border: 1px solid rgba(15, 23, 42, 0.18);
+}
+
+.notfound__btn--ghost:hover {
+  background-color: rgba(15, 23, 42, 0.05);
+  border-color: rgba(15, 23, 42, 0.3);
+}
