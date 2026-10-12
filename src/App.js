@@ -23,7 +23,6 @@ function App() {
         <Route path="/webdevelopment&design" element={<WebDev />} />
         <Route path="/mobileapps" element={<MobileApps />} />
         <Route path="/graphicdesign" element={<GraphicDesign />} />
-        <Route path="/services/laptop-repair" element={<LaptopRepair />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
