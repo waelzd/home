@@ -1,0 +1,258 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+  /* Header styles */
+  .header {
+    position: relative;
+    height: 90vh; /* Adjusted to a more responsive value */
+    max-height: 900px;
+    width: 100%;
+  }
+
+.services_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+.img_p1, .img_p2 {
+    position: absolute;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    text-align: center; /* Ensure multi-line text is centered */
+    color: var(--white);
+    width: 100%; /* Ensure it spans the container */
+    height: 20%; /* Ensure it spans the container */
+}
+
+.img_p1 {
+    top: 30%;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+.img_p2 {
+    top: 38%;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  @media (max-width: 700px) {
+    .img_p1 {
+        font-size: 2.225rem;
+    }
+
+    .img_p2 {
+        top: 45%;
+        font-size: 1.025rem; 
+    }
+  }
+
+  /* Section Styling */
+.section_webdev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 50px 20px;
+    background-color: var(--navy);
+    color: var(--white);
+}
+
+.webdevdesign_img {
+    height: 70px;
+    width: 70px;
+    margin: 20px auto;
+}
+
+.navlink_webdev_img {
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--white);
+    text-decoration: none;
+    padding-bottom: 25px;
+}
+
+.navlink_webdev_img:hover {
+    color: var(--red);
+}
+
+.p1_webdev_img {
+    text-align: center;
+}
+
+.container_webdev1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Section: Mobile */
+.section_mobile {
+    position: relative;
+    height: 50vh;
+    max-height: 644px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+.mobile_img {
+    height: 70px;
+    width: 70px;
+    margin: 30px auto 10px;
+}
+
+.navlink_mobile_img {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--navy);
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.navlink_mobile_img:hover {
+    color: var(--red);
+}
+
+.container_mobile {
+    height: auto;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .mobile_img {
+        margin: 10px auto;
+    }
+    .section_mobile {
+        height: 65vh;
+    }
+    .container_mobile {
+        padding: 0 10px;
+    }
+}
+
+/* Section: Graphic Design */
+.section_graphicdesign {
+    position: relative;
+    height: 50vh;
+    max-height: 644px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--navy);
+    padding: 20px;
+    text-align: center;
+}
+
+.graphicdesign_img {
+    height: 70px;
+    width: 72px;
+    margin: 30px auto 10px;
+}
+
+.p1_graphicdesign_img,
+.p1_graphicdesign_img1 {
+    color: var(--white);
+}
+
+.navlink_graphicdesign_img {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--white);
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.navlink_graphicdesign_img:hover {
+    color: var(--red);
+}
+
+.container_graphicdesign {
+    height: auto;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .graphicdesign_img {
+        margin: 10px auto;
+    }
+    .section_graphicdesign {
+        height: 65vh;
+    }
+    .container_graphicdesign {
+        padding: 0 10px;
+    }
+}
+
+/* Section: Laptop Repair */
+.section_laptoprepair {
+    position: relative;
+    height: 50vh;
+    max-height: 644px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+.laptopsrepair_img {
+    height: 70px;
+    width: 70px;
+    margin: 30px auto 10px;
+}
+
+.navlink_laptoprepair_img {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--navy);
+    display: inline-block;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.navlink_laptoprepair_img:hover {
+    color: var(--red);
+    background-color: transparent;
+}
+
+.container_laptoprepair {
+    height: auto;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .laptopsrepair_img {
+        margin: 10px auto;
+    }
+    .section_laptoprepair {
+        height: 65vh;
+    }
+    .container_laptoprepair {
+        padding: 0 10px;
+    }
+}
